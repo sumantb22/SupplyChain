@@ -24,6 +24,8 @@ public class HelloApplication extends Application {
         Button searchButton = new Button("Search");
 
         GridPane gridPane = new GridPane();
+        gridPane.setVgap(5);
+        gridPane.setHgap(5);
 
         gridPane.add(searchText,0, 0);
         gridPane.add(searchButton,1,0);
@@ -38,6 +40,8 @@ public class HelloApplication extends Application {
         PasswordField passwordField = new PasswordField();
 
         GridPane gridPane = new GridPane();
+        gridPane.setVgap(5);
+        gridPane.setHgap(5);
 
         gridPane.add(emailLabel,0,0);
         gridPane.add(emailTextField,1,0);
