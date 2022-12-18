@@ -26,15 +26,15 @@ public class DatabaseConnection {
         return null;
     }
 
-    public static void main(String[] args) {
-        DatabaseConnection databaseConnection = new DatabaseConnection();
-        ResultSet rs = databaseConnection.getQueryTable("select * from customer");
-        try {
-            while (rs.next()){
-                System.out.println(rs.getString("email")+ " "+rs.getString("first_name"));
-            }
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-    }
+//    public static void main(String[] args) {
+//        DatabaseConnection databaseConnection = new DatabaseConnection();
+//        ResultSet rs = databaseConnection.getQueryTable("select * from customer");
+//        try {
+//            while (rs.next()){
+//                System.out.println(rs.getString("email")+ " "+rs.getString("first_name"));
+//            }
+//        }catch (Exception e){
+//            e.printStackTrace();
+//        }
+//    }
 }
